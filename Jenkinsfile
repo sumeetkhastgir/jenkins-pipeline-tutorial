@@ -7,8 +7,8 @@ pipeline {
     // pipeline's stages.
     environment {
 	    region = "us-east-1"
-        docker_repo_uri = ""
-		task_def_arn = "653477810149.dkr.ecr.us-east-1.amazonaws.com/sample-app"
+        docker_repo_uri = "653477810149.dkr.ecr.us-east-1.amazonaws.com/sample-app"
+		task_def_arn = ""
         cluster = ""
         exec_role_arn = ""
     }
