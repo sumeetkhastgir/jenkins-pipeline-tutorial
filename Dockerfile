@@ -4,7 +4,7 @@ RUN apk add git
 COPY . /code
 WORKDIR /code
 
-RUN go mod init github.com/niranjankl/jenkins-pipeline-tutorial
+RUN go mod init github.com/iamalan07/jenkins-pipeline-tutorial
 # Run unit tests
 #RUN go test
 
